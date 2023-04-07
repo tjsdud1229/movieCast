@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/moviecast/static/css/main.96144029.css",
+    "main.js": "/moviecast/static/js/main.f0a74951.js",
+    "index.html": "/moviecast/index.html",
+    "main.96144029.css.map": "/moviecast/static/css/main.96144029.css.map",
+    "main.f0a74951.js.map": "/moviecast/static/js/main.f0a74951.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96144029.css",
+    "static/js/main.f0a74951.js"
+  ]
+}
