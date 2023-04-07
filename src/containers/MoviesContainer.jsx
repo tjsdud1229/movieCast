@@ -6,7 +6,7 @@ import Styles from "../components/PreviewList.module.css";
 function MoviesContainer() {
   const dispatch = useDispatch();
   const handleTextChange = (e) =>
-    dispatch({ type: "SEARCH_MOVIE", payload: e.target.value });
+    dispatch({ type: "SEARCH_MOVIE", payload: e.target.value.toLowerCase() });
   return (
     <div>
       <div className={Styles.searchContainer}>

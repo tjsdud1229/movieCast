@@ -5,6 +5,7 @@ import MovieItem from "./MovieItem.jsx";
 
 function MovieList() {
   const movies = useSelector((state) => state.movies.filteredList);
+  console.log("filteredMovies", movies);
   const moviesArr = [];
   for (let i = 0; i < movies.length; i++) {
     moviesArr.push(

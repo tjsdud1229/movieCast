@@ -29,7 +29,7 @@ const moviesReducer = (state = initialState, action) => {
 
     case types.SEARCH_MOVIE: {
       filteredList = state.movieList.filter((movie) => {
-        return movie.title.includes(action.payload);
+        return movie.title.toLowerCase().includes(action.payload);
       });
       return {
         ...state,
