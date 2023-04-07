@@ -28,17 +28,15 @@ export default function MainContainer(props) {
   }, [dispatch]);
 
   return (
-    <HashRouter>
-      <div className={Styles.container}>
-        <div className="outerBox">
-          <NavContainer />
-          <PreviewContainer />
-          <Routes>
-            <Route path="/" element={<MoviesContainer />} />
-            <Route path="/movie/:id/casts" element={<CastsContainer />} />
-          </Routes>
-        </div>
+    <div className={Styles.container}>
+      <div className="outerBox">
+        <NavContainer />
+        <PreviewContainer />
+        <Routes>
+          <Route path="/" element={<MoviesContainer />} />
+          <Route path="/movie/:id/casts" element={<CastsContainer />} />
+        </Routes>
       </div>
-    </HashRouter>
+    </div>
   );
 }
