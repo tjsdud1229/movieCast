@@ -8,21 +8,12 @@ MovieCast is a web application that allows users to browse and search for movies
 
 ## Installation
 
-To install the dependencies, run the following command:
-
-```bash
-npm install
-
-Or you can use the shorthand version:
+To install the dependencies and start the application, run the following command:
 
 ```bash
 npm i
-
-To start the application, run the following command:
-```bash
 npm run start
 
-This will start the application on localhost:8080.
 
-API Used
+## API Used
 The application uses the TMDB API to retrieve movie and cast information. For more information about the API, visit https://developers.themoviedb.org/3/getting-started/introduction
