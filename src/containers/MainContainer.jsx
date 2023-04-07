@@ -5,7 +5,7 @@ import CastsContainer from "./CastsContainer.jsx";
 import NavContainer from "./NavContainer.jsx";
 import PreviewContainer from "./PreviewContainer.jsx";
 import Styles from "./MainContainer.module.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Route, HashRouter } from "react-router-dom";
 
 export default function MainContainer(props) {
   const dispatch = useDispatch();
@@ -28,7 +28,7 @@ export default function MainContainer(props) {
   }, [dispatch]);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className={Styles.container}>
         <div className="outerBox">
           <NavContainer />
@@ -42,6 +42,6 @@ export default function MainContainer(props) {
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

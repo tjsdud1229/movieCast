@@ -1,7 +1,5 @@
-import React from 'react';
-import Styles from './NavContainer.module.css';
-
-
+import React from "react";
+import Styles from "./NavContainer.module.css";
 
 function NavContainer() {
   return (
@@ -10,12 +8,9 @@ function NavContainer() {
         <span className={Styles.moviedb}>Movie DB</span>
       </a>
       <img className={Styles.logo} src="" alt="" />
-      <img className={Styles.tmdb} src="../../public/tmdb.svg" alt="" />
+      <img className={Styles.tmdb} src="./tmdb.svg" alt="" />
     </div>
-  )
+  );
 }
-
-
-
 
 export default NavContainer;
