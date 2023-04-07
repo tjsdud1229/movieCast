@@ -13,9 +13,10 @@ If the browser is in full screen, only the preview might show up. Please adjust 
 
 To install the dependencies and start the application, run the following command:
 
-```bash`
+```bash
 npm i
 npm run start
+```
 
 
 ## API Used
