@@ -8,7 +8,7 @@ function NavContainer() {
         <span className={Styles.moviedb}>Movie DB</span>
       </a>
       <img className={Styles.logo} src="" alt="" />
-      <img className={Styles.tmdb} src="./images/tmdb.svg" alt="" />
+      {/* <img className={Styles.tmdb} src="./images/tmdb.svg" alt="" /> */}
     </div>
   );
 }
