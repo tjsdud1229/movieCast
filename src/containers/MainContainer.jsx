@@ -5,7 +5,7 @@ import CastsContainer from "./CastsContainer.jsx";
 import NavContainer from "./NavContainer.jsx";
 import PreviewContainer from "./PreviewContainer.jsx";
 import Styles from "./MainContainer.module.css";
-import { BrowserRouter, Route, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 
 export default function MainContainer(props) {
   const dispatch = useDispatch();
@@ -34,7 +34,7 @@ export default function MainContainer(props) {
           <NavContainer />
           <PreviewContainer />
           <Routes>
-            <Route exact path="/moviecast" element={<MoviesContainer />} />
+            <Route exact path="" element={<MoviesContainer />} />
             <Route
               path="moviecast/movie/:id/casts"
               element={<CastsContainer />}
