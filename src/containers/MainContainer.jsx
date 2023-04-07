@@ -32,10 +32,11 @@ export default function MainContainer(props) {
       <div className="outerBox">
         <NavContainer />
         <PreviewContainer />
-        <Routes>
-          <Route path="/" element={<MoviesContainer />} />
-          <Route path="/movie/:id/casts" element={<CastsContainer />} />
-        </Routes>
+        <MoviesContainer />
+        {/* <Routes> */}
+        {/* <Route path="/" element={<MoviesContainer />} /> */}
+        {/* <Route path="/movie/:id/casts" element={<CastsContainer />} /> */}
+        {/* </Routes> */}
       </div>
     </div>
   );
