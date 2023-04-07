@@ -5,7 +5,7 @@ function NavContainer() {
   return (
     <div className={Styles.navbar}>
       <a className={Styles.log_container} href="">
-        <span className={Styles.moviedb}>Movie DB</span>
+        <span className={Styles.moviedb}>MovieCast</span>
       </a>
       <img className={Styles.logo} src="" alt="" />
     </div>
