@@ -34,9 +34,9 @@ export default function MainContainer(props) {
           <NavContainer />
           <PreviewContainer />
           <Routes>
-            <Route exact path="" element={<MoviesContainer />} />
+            <Route path="/moviecast" element={<MoviesContainer />} />
             <Route
-              path="moviecast/movie/:id/casts"
+              path="/moviecast/movie/:id/casts"
               element={<CastsContainer />}
             />
           </Routes>
