@@ -10,9 +10,9 @@ MovieCast is a web application that allows users to browse and search for movies
 
 To install the dependencies and start the application, run the following command:
 
-```bash
+```bash`
 npm i
-npm run start
+npm run start```
 
 
 ## API Used
