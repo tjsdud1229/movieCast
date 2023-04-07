@@ -13,9 +13,7 @@ const MovieItem = (props) => {
   };
 
   const getCasts = () => {
-    dispatch({ type: "SEARCH_MOVIE", payload: props.title });
-    console.log('getCasts called')
-    console.log('props.id', props.id);
+    dispatch({ type: "SEARCH_MOVIE", payload: props.title.toLowerCase() });
     return fetch(
       `https://api.themoviedb.org/3/movie/${props.id}/credits?api_key=2824910ce318ceabd50d2661187c1b9e`,
       requestOptions
